@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function()
+{
+	// $("div.alert-error").attr('class', 'alert alert-danger');
+});

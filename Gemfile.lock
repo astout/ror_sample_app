@@ -37,6 +37,7 @@ GEM
       sass (~> 3.2)
     bootstrap-will_paginate (0.0.9)
       will_paginate
+    bootstrap_form (2.1.1)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -75,7 +76,7 @@ GEM
     execjs (2.0.2)
     factory_girl (4.2.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.2.0)
+    factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
     faker (1.1.2)
@@ -226,12 +227,13 @@ DEPENDENCIES
   bcrypt-ruby (= 3.1.2)
   bootstrap-sass (~> 3.1.1.1)
   bootstrap-will_paginate (= 0.0.9)
+  bootstrap_form
   capybara (= 2.1.0)
   childprocess (= 0.5.3)
   coffee-rails (= 4.0.1)
   cucumber-rails (= 1.4.0)
   database_cleaner!
-  factory_girl_rails (= 4.2.0)
+  factory_girl_rails (= 4.2.1)
   faker (= 1.1.2)
   guard-rspec (= 2.5.0)
   guard-spork (= 1.5.0)
