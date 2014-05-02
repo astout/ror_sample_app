@@ -160,8 +160,16 @@ input {
   height: auto !important;
 }
 
-input[name='commit'] {
+input[value='Create my account'] {
   width: 150px;
+}
+
+input[value='Sign in'] {
+  width: 75px;
+}
+
+input[name='commit'] {
+  margin-bottom: 20px;
 }
 
 #error_explanation {
@@ -187,11 +195,15 @@ img#img_avatar {
 	max-height: 100px;
 }
 
-div#nav-btn-group {
-	position: absolute;
-	right: 10%;
-	bottom: 5px;
+div#navigation-group {
+  position: absolute;
+  right: 10%;
+  bottom: 5px;
 }
+
+// div#nav-btn-group {
+// 	float: left;
+// }
 
 div.mid {
   float: none;
