@@ -18,6 +18,12 @@
 
 $(function()
 {
-    // $("div.alert-error").attr('class', 'alert alert-danger');
 	$("div.alert-notice").attr('class', 'alert alert-info');
+    micropostCharCount();
 });
+
+function micropostCharCount() {
+    var currentLength = $("textarea#micropost_content").val().length;
+    var remaining = 140 - currentLength;
+    $("span#char-counter").html("Characters left: " + remaining);
+}

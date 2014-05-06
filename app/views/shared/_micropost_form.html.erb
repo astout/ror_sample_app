@@ -2,7 +2,8 @@
     <%= render 'shared/error_messages', object: f.object %>
     <div class="field">
         <%= f.text_area :content, placeholder: "Compose new micropost...", maxlength: "140",
-                hide_label: true %>
+                onkeyup: "micropostCharCount()",  hide_label: true %>
     </div>
     <%= f.submit "Post", class: "btn btn-large btn-primary" %>
+    <span id="char-counter"></span>
 <% end %>
