@@ -18,5 +18,6 @@
 
 $(function()
 {
-	// $("div.alert-error").attr('class', 'alert alert-danger');
+    // $("div.alert-error").attr('class', 'alert alert-danger');
+	$("div.alert-notice").attr('class', 'alert alert-info');
 });
